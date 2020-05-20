@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(65deg, #be3144, #6fa0fc);
+}
+
+#container {
+  margin: 100px auto;
+  height: 370px;
+  width: 360px;
+  background: #6fa0fc;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  background: #6fa0fc;
+  border-bottom: 2px solid black;
+  color: white;
+  margin: 0;
+  padding: 10px 100px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#calculator {
+  margin: 10px;
+}
+
+p {
+  padding-left: 50px;
+}
+
+input {
+  padding-left: 10px;
+}
+
+#billamt {
+  font-size: 14px;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#peopleamt {
+  margin-left: 50px;
+}
+
+#totalTip {
+  margin-left: 100px;
+}
+
+#totalTip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+button {
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 0 50px;
+  background: #AD133A;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+button:hover {
+  background: #fff;
+  color: #AD133A;
+}
